@@ -5,27 +5,27 @@ import pl.edu.pg.game.character.repository.MageRepo;
 import java.util.Objects;
 
 public class Mage implements Comparable<Mage>{
-    private int health;
-    private int intelligence;
+    private int level;
+    private double power;
     private String name;
     private MageRepo apprentices;
 
-    public Mage(String name, int health, int intelligence) {
-        this.name = name;
-        this.health = health;
-        this.intelligence = intelligence;
+    public Mage(String name, double power, int level) {
+        this.setName(name);
+        this.setPower(power);
+        this.setLevel(level);
         this.apprentices = new MageRepo();
     }
 
     @Override
     public String toString() {
-        return new String("Mage{name='"+name+
-                "', health="+health+" int="+intelligence+"}");
+        return new String("Mage{name='"+ getName() +
+                "', level="+ getLevel() +" power="+ getPower() +"}");
     }
 
     @Override
     public int hashCode() {
-        return name.hashCode()+health*31-intelligence*17;
+        return getName().hashCode()+ getLevel() *31-(int) getPower() *17;
     }
 
     @Override
@@ -36,28 +36,25 @@ public class Mage implements Comparable<Mage>{
 
         Mage otherMage = (Mage)other;
 
-        return Objects.equals(name, otherMage.name);
+        return Objects.equals(getName(), otherMage.getName());
     }
 
     @Override
     public int compareTo(Mage other) {
-        return name.compareTo(other.getName());
-    }
-
-    public int getHealth() {
-        return health;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
-    }
-
-    public int getIntelligence() {
-        return intelligence;
-    }
-
-    public void setIntelligence(int intelligence) {
-        this.intelligence = intelligence;
+        int ret = getName().compareTo(other.getName());
+        if(ret == 0) {
+            ret = getLevel()-other.getLevel();
+            if(ret == 0) {
+                double diff = getPower()-other.getPower();
+                if(diff>0) {
+                    ret = 1;
+                }
+                else if(diff<0) {
+                    ret = -1;
+                }
+            }
+        }
+        return ret;
     }
 
     public String getName() {
@@ -82,5 +79,21 @@ public class Mage implements Comparable<Mage>{
             ret += apprentice.countApprentices() + 1;
         }
         return ret;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    public double getPower() {
+        return power;
+    }
+
+    public void setPower(double power) {
+        this.power = power;
     }
 }

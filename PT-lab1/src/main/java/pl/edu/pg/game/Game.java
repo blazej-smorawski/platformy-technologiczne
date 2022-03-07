@@ -1,6 +1,6 @@
 package pl.edu.pg.game;
 
-import pl.edu.pg.game.character.comparator.MageByHealthComparator;
+import pl.edu.pg.game.character.comparator.MageByLevelComparator;
 import pl.edu.pg.game.character.initializers.TestInitializer;
 import pl.edu.pg.game.character.repository.MageRepo;
 import pl.edu.pg.game.services.MageService;
@@ -21,7 +21,7 @@ public class Game {
 
     private MageService createMageService(boolean sorted, boolean alternative) {
         return (sorted && alternative)
-                ? new MageService(new MageRepo(new MageByHealthComparator()))
+                ? new MageService(new MageRepo(new MageByLevelComparator()))
                 : new MageService(new MageRepo(sorted));
     }
 }
