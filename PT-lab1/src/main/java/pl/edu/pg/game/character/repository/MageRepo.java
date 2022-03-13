@@ -18,12 +18,12 @@ public class MageRepo extends MemRepo<Mage> {
     }
 
     private void printMagesDepth(int depth) {
-        for(Mage entity : set) {
-            for(int i=0;i<depth;i++) {
+        for (Mage entity : set) {
+            for (int i = 0; i < depth; i++) {
                 System.out.print("-");
             }
             System.out.println(entity);
-            entity.getApprentices().printMagesDepth(depth+1);
+            entity.getApprentices().printMagesDepth(depth + 1);
         }
     }
 

@@ -37,7 +37,7 @@ public class MageService {
         MageApprenticesMap map = new MageApprenticesMap();
 
         for (Mage mage : repository.findAll()) {
-            map.add(mage,mage.countApprentices());
+            map.add(mage, mage.countApprentices());
         }
         return map;
     }

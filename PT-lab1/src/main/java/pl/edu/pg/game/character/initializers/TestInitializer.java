@@ -7,7 +7,7 @@ public class TestInitializer {
     private final MageService mageService;
 
     public TestInitializer(MageService mageService) {
-        this.mageService =  mageService;
+        this.mageService = mageService;
     }
 
     /**
@@ -26,8 +26,8 @@ public class TestInitializer {
         mageService.create(mage4);
         mageService.create(mage5);
 
-        mageService.assignApprenticeTo(mage2,archMage);
-        mageService.assignApprenticeTo(mage3,archMage);
-        mageService.assignApprenticeTo(mage4,mage3);
+        mageService.assignApprenticeTo(mage2, archMage);
+        mageService.assignApprenticeTo(mage3, archMage);
+        mageService.assignApprenticeTo(mage4, mage3);
     }
 }

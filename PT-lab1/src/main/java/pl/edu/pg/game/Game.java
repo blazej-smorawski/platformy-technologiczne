@@ -11,7 +11,7 @@ public class Game {
         boolean alternativeCriteria = args.length == 2 && Boolean.parseBoolean(args[1]);
         Game application = new Game();
 
-        MageService service = application.createMageService(sorted,alternativeCriteria);
+        MageService service = application.createMageService(sorted, alternativeCriteria);
         TestInitializer testInitializer = new TestInitializer(service);
         testInitializer.init();
 

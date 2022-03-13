@@ -2,7 +2,7 @@ package pl.edu.pg.game.repository;
 
 import java.util.*;
 
-public class MemRepo <E extends Comparable<E>>{
+public class MemRepo<E extends Comparable<E>> {
     protected Set<E> set;
 
     public MemRepo() {

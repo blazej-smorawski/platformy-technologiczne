@@ -4,7 +4,7 @@ import pl.edu.pg.game.character.repository.MageRepo;
 
 import java.util.Objects;
 
-public class Mage implements Comparable<Mage>{
+public class Mage implements Comparable<Mage> {
     private int level;
     private double power;
     private String name;
@@ -19,22 +19,22 @@ public class Mage implements Comparable<Mage>{
 
     @Override
     public String toString() {
-        return new String("Mage{name='"+ getName() +
-                "', level="+ getLevel() +" power="+ getPower() +"}");
+        return new String("Mage{name='" + getName() +
+                "', level=" + getLevel() + " power=" + getPower() + "}");
     }
 
     @Override
     public int hashCode() {
-        return getName().hashCode()+ getLevel() *31-(int) getPower() *17;
+        return getName().hashCode() + getLevel() * 31 - (int) getPower() * 17;
     }
 
     @Override
     public boolean equals(Object other) {
-        if(other.getClass() != getClass()) {
+        if (other.getClass() != getClass()) {
             return false;
         }
 
-        Mage otherMage = (Mage)other;
+        Mage otherMage = (Mage) other;
 
         return Objects.equals(getName(), otherMage.getName());
     }
@@ -42,14 +42,13 @@ public class Mage implements Comparable<Mage>{
     @Override
     public int compareTo(Mage other) {
         int ret = getName().compareTo(other.getName());
-        if(ret == 0) {
-            ret = getLevel()-other.getLevel();
-            if(ret == 0) {
-                double diff = getPower()-other.getPower();
-                if(diff>0) {
+        if (ret == 0) {
+            ret = getLevel() - other.getLevel();
+            if (ret == 0) {
+                double diff = getPower() - other.getPower();
+                if (diff > 0) {
                     ret = 1;
-                }
-                else if(diff<0) {
+                } else if (diff < 0) {
                     ret = -1;
                 }
             }
