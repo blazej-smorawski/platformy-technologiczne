@@ -4,8 +4,10 @@ import pl.edu.pg.multithread.task.Task;
 import pl.edu.pg.multithread.task.TaskOutput;
 import pl.edu.pg.multithread.worker.Worker;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Spawn workers, add tasks, receive results etc.
@@ -29,10 +31,8 @@ public class SessionService {
     }
 
     public synchronized void addTask(Task task) {
-        {
-            taskList.add(task);
-            notify();
-        }
+        taskList.add(task);
+        notify();
         System.out.println("Mainthread task added");
     }
 
@@ -45,6 +45,19 @@ public class SessionService {
         } catch (InterruptedException ex) {
             System.out.println("getTask interrupted");
             throw new InterruptedException();
+        }
+    }
+
+    public synchronized void writeOutputToFile(TaskOutput out) {
+        File file = new File("out.txt");
+
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file,true));
+            writer.write(out.toString());
+            writer.newLine();
+            writer.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

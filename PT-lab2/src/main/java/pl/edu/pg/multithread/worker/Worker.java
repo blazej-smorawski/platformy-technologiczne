@@ -13,24 +13,30 @@ import java.util.List;
 public class Worker implements Runnable {
     SessionService session_service;
 
+    private boolean running = true;
+
     public Worker(SessionService session_service) {
         this.session_service = session_service;
     }
 
     @Override
     public void run() {
-        boolean running = true;
         while (!Thread.interrupted() && running) {
             try {
                 Task task = session_service.getTask();
                 System.out.println("Thread executing");
                 task.execute();
-                session_service.addFinishedTask(new SleeperTaskOutput(10));
+                session_service.addFinishedTask(task.getResult());
+                session_service.writeOutputToFile(task.getResult());
                 System.out.println("Thread finished");
             } catch (InterruptedException ex) {
                 running = false;
                 System.out.println("Thread interrupted");
             }
         }
+    }
+
+    public void stop() {
+        running = false;
     }
 }
