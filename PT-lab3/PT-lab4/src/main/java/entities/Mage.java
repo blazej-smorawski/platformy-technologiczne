@@ -1,16 +1,12 @@
 package entities;
 
-import lombok.Builder;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Objects;
 
-@Builder
 @Entity
 @Table(name = "characters")
 public class Mage implements Comparable<Mage>, Serializable {
@@ -24,6 +20,16 @@ public class Mage implements Comparable<Mage>, Serializable {
 
     public Mage(){
 
+    }
+
+    public Mage(String name, int level, Tower tower) {
+        this.name = name;
+        this.level = level;
+        this.tower = tower;
+    }
+
+    public static MageBuilder builder() {
+        return new MageBuilder();
     }
 
     public String getName() {
@@ -66,6 +72,38 @@ public class Mage implements Comparable<Mage>, Serializable {
     @Override
     public int compareTo(Mage other) {
         return 0;
+    }
+
+    public static class MageBuilder {
+        private String name;
+        private int level;
+        private Tower tower;
+
+        MageBuilder() {
+        }
+
+        public MageBuilder name(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public MageBuilder level(int level) {
+            this.level = level;
+            return this;
+        }
+
+        public MageBuilder tower(Tower tower) {
+            this.tower = tower;
+            return this;
+        }
+
+        public Mage build() {
+            return new Mage(name, level, tower);
+        }
+
+        public String toString() {
+            return "Mage.MageBuilder(name=" + this.name + ", level=" + this.level + ", tower=" + this.tower + ")";
+        }
     }
 }
 
