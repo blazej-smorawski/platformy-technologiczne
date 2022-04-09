@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f0bf920-72d7-4163-9286-6530c9436b0c" name="Changes" comment="Lab 4">
-      <change beforePath="$PROJECT_DIR$/PT-lab3/PT-lab4/src/main/java/entities/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/PT-lab3/PT-lab4/src/main/java/entities/Mage.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f0bf920-72d7-4163-9286-6530c9436b0c" name="Changes" comment="Lab 4 small fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649050435946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lab 4 small fix">
+      <created>1649050556199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649050556199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +219,7 @@
     <MESSAGE value="lab2" />
     <MESSAGE value="Lab 3" />
     <MESSAGE value="Lab 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 4" />
+    <MESSAGE value="Lab 4 small fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 4 small fix" />
   </component>
 </project>
