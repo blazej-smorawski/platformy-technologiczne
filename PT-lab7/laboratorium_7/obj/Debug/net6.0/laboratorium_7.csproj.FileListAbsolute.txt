@@ -1,0 +1,15 @@
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\net6.0\laboratorium_7.exe
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\net6.0\laboratorium_7.deps.json
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\net6.0\laboratorium_7.runtimeconfig.json
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\net6.0\laboratorium_7.dll
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\net6.0\ref\laboratorium_7.dll
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\net6.0\laboratorium_7.pdb
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\laboratorium_7.csproj.AssemblyReference.cache
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\laboratorium_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\laboratorium_7.AssemblyInfoInputs.cache
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\laboratorium_7.AssemblyInfo.cs
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\laboratorium_7.csproj.CoreCompileInputs.cache
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\laboratorium_7.dll
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\ref\laboratorium_7.dll
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\laboratorium_7.pdb
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\net6.0\laboratorium_7.genruntimeconfig.cache

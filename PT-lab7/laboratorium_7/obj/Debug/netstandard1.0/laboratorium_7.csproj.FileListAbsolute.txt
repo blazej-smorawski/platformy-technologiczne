@@ -1,0 +1,5 @@
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netstandard1.0\laboratorium_7.csproj.AssemblyReference.cache
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netstandard1.0\laboratorium_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netstandard1.0\laboratorium_7.AssemblyInfoInputs.cache
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netstandard1.0\laboratorium_7.AssemblyInfo.cs
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netstandard1.0\laboratorium_7.csproj.CoreCompileInputs.cache

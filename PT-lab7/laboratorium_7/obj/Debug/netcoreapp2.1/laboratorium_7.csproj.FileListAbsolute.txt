@@ -1,0 +1,24 @@
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.csprojAssemblyReference.cache
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.csproj.CoreCompileInputs.cache
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.AssemblyInfoInputs.cache
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.AssemblyInfo.cs
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.deps.json
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.runtimeconfig.json
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.runtimeconfig.dev.json
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.dll
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.pdb
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.dll
+C:\Users\thehe\Desktop\Programming\platformyTechnologiczne\C#\laboratorium_7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.pdb
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.deps.json
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.runtimeconfig.json
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.runtimeconfig.dev.json
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.dll
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\bin\Debug\netcoreapp2.1\laboratorium_7.pdb
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.csproj.AssemblyReference.cache
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.AssemblyInfoInputs.cache
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.AssemblyInfo.cs
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.csproj.CoreCompileInputs.cache
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.dll
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.pdb
+D:\Studia\Sem 4\platformy-technologiczne\PT-lab7\laboratorium_7\obj\Debug\netcoreapp2.1\laboratorium_7.genruntimeconfig.cache
