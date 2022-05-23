@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "lKPhzxtyAUpJHXahhQSezw+PRrLYx6nj4SHHjcdDf+ezUj+/sk/+IhMCW2wTnIG4lpFxm4SdSBs5oS1Wn5Y/ww==",
+  "success": true,
+  "projectFilePath": "D:\\Studia\\Sem 4\\platformy-technologiczne\\PT-lab9\\laboratorium_9\\laboratorium_9.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blaze\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\blaze\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\blaze\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\blaze\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\blaze\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\blaze\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\blaze\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
